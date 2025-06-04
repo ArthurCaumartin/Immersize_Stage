@@ -14,7 +14,8 @@ public class CharacterManagerEditor : Editor
             characterManager.Bake();
 
             EditorUtility.SetDirty(characterManager);
-            EditorSceneManager.MarkSceneDirty(characterManager.gameObject.scene);
+            if (!Application.isPlaying)
+                EditorSceneManager.MarkSceneDirty(characterManager.gameObject.scene);
 
             foreach (var item in characterManager.GetComponentsInChildren<TextMeshProUGUI>())
             {
