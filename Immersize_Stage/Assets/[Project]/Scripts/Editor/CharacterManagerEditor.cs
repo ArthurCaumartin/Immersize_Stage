@@ -17,6 +17,7 @@ public class CharacterManagerEditor : Editor
             if (!Application.isPlaying)
                 EditorSceneManager.MarkSceneDirty(characterManager.gameObject.scene);
 
+            //TODO faire une list dans l'editeur
             foreach (var item in characterManager.GetComponentsInChildren<TextMeshProUGUI>())
             {
                 item.ForceSerializeTextField(item.text);
