@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecda63f164aed344a0e767a1aeeca3f, type: 3}
+  m_Name: CharacterData_Sqlt
+  m_EditorClassIdentifier: 
+  characterName: Player
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis
+    nibh et urna sodales venenatis nec non est. Praesent tincidunt scelerisque eros
+    at tristique. Donec nec libero laoreet, consequat nulla in, molestie ante. Maecenas
+    hendrerit eu mauris at porttitor. Quisque vel erat ac leo blandit elementum vel
+    sit amet nisl. Duis scelerisque sollicitudin volutpat.
+  maxHealth: 150
+  moveSpeed: 5
+  meshPrefab: {fileID: 919132149155446097, guid: 3b7b244a1b3a4a8478b438d47b340f1d, type: 3}
+  animator: {fileID: 9100000, guid: f11b090586c05ea43b35342084cf5aab, type: 2}
