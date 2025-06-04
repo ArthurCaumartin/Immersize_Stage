@@ -19,7 +19,7 @@ public class CharacterManagerEditor : Editor
 
             foreach (var item in characterManager.GetComponentsInChildren<TextMeshProUGUI>())
             {
-                item.SetSerializeProperty(item.text);
+                item.ForceSerializeTextField(item.text);
             }
 
             Undo.RegisterCompleteObjectUndo(characterManager, "Bake");

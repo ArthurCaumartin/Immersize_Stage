@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class TMPEditorUtils
 {
-    public static void SetSerializeProperty(this TextMeshProUGUI textMesh, string value)
+    public static void ForceSerializeTextField(this TextMeshProUGUI textMesh, string value)
     {
         SerializedObject serializedObj = new SerializedObject(textMesh);
         SerializedProperty property = serializedObj.FindProperty("m_text");
