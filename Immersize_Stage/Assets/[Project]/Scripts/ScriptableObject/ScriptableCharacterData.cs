@@ -10,5 +10,4 @@ public class ScriptableCharacterData : ScriptableObject
     public float moveSpeed;
     [Space]
     public MeshInstance meshPrefab;
-    public RuntimeAnimatorController animator;
 }
