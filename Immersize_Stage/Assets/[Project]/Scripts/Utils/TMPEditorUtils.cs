@@ -12,16 +12,16 @@ public static class TMPEditorUtils
 
         if (property != null)
         {
-            Debug.Log("Property Find : " + property.name);
+            // Debug.Log("Property Find : " + property.name);
             property.stringValue = value;
             serializedObj.ApplyModifiedProperties();
 
             EditorUtility.SetDirty(textMesh);
             EditorSceneManager.MarkSceneDirty(textMesh.gameObject.scene);
         }
-        else
-        {
-            Debug.Log("No property find");
-        }
+        // else
+        // {
+        //     Debug.Log("No property find");
+        // }
     }
 }
