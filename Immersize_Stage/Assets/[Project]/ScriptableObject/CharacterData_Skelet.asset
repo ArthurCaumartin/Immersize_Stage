@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aecda63f164aed344a0e767a1aeeca3f, type: 3}
-  m_Name: CharacterData_Sqlt
+  m_Name: CharacterData_Skelet
   m_EditorClassIdentifier: 
-  characterName: Player
+  characterName: Squelette
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis
     nibh et urna sodales venenatis nec non est. Praesent tincidunt scelerisque eros
     at tristique. Donec nec libero laoreet, consequat nulla in, molestie ante. Maecenas
@@ -20,5 +20,5 @@ MonoBehaviour:
     sit amet nisl. Duis scelerisque sollicitudin volutpat.
   maxHealth: 150
   moveSpeed: 5
-  meshPrefab: {fileID: 919132149155446097, guid: 3b7b244a1b3a4a8478b438d47b340f1d, type: 3}
+  meshPrefab: {fileID: 3077398036350517820, guid: f107567a3b2bc7244b8e2b727a316eca, type: 3}
   animator: {fileID: 9100000, guid: f11b090586c05ea43b35342084cf5aab, type: 2}

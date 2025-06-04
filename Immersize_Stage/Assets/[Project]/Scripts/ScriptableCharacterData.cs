@@ -9,6 +9,6 @@ public class ScriptableCharacterData : ScriptableObject
     public float maxHealth;
     public float moveSpeed;
     [Space]
-    public GameObject meshPrefab;
+    public MeshInstance meshPrefab;
     public RuntimeAnimatorController animator;
 }
