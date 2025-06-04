@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 350365774333462021, guid: aa3c730af3cc36b49bd5139b368b0ef9, type: 3}
+      propertyPath: prefabID
+      value: -278414
+      objectReference: {fileID: 0}
     - target: {fileID: 4808815044528244968, guid: aa3c730af3cc36b49bd5139b368b0ef9, type: 3}
       propertyPath: m_Name
       value: MeshPrefab_Skelet
@@ -120,10 +124,40 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8913e2effb4b1bd4d9ee8cafb307a247, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5097441784036137689}
   m_SourcePrefab: {fileID: 100100000, guid: 8913e2effb4b1bd4d9ee8cafb307a247, type: 3}
 --- !u!4 &3850960421479619144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8913e2effb4b1bd4d9ee8cafb307a247, type: 3}
   m_PrefabInstance: {fileID: 3673782142482840995}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4484051088098574578 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8913e2effb4b1bd4d9ee8cafb307a247, type: 3}
+  m_PrefabInstance: {fileID: 3673782142482840995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5097441784036137689
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4484051088098574578}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f11b090586c05ea43b35342084cf5aab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
