@@ -1,10 +1,12 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _textName;
     [SerializeField] private TextMeshProUGUI _textDescription;
+    [SerializeField] private Image _imageHealthBar;
 
     public void SetName(string value)
     {
@@ -23,6 +25,11 @@ public class CharacterUI : MonoBehaviour
     {
         if (!_textDescription) return;
         _textDescription.text = value;
+    }
+
+    public void SetHealthBarValue(float healthRatio)
+    {
+        _imageHealthBar.fillAmount = healthRatio;
     }
 }
 

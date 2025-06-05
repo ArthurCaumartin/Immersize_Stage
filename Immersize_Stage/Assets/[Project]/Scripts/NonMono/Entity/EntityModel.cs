@@ -14,6 +14,5 @@ namespace Entity {
             this.name = name ?? throw new ArgumentNullException(nameof(name));
         }
         public Rarity Rarity => RarityExtensions.Instance.GetByName(rarityType.ToString()); 
-
     }
 }

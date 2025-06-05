@@ -1,15 +1,18 @@
 using UnityEngine;
+using Entity.Character;
 
 public class CharacterManager : MonoBehaviour
 {
-    [SerializeField] private ScriptableCharacterData _characterData;
+    [SerializeField] private CharacterData _characterData;
     [SerializeField] private PlayerMovement _playerMovement;
     [SerializeField] private CharacterHealth _health;
     [SerializeField] private CharacterUI _characterUI;
-
-    [SerializeField] private Character _character;
-
     private float _meshHeight;
+
+    private void Start()
+    {
+        Bake();
+    }
 
     public void Bake()
     {
@@ -20,7 +23,6 @@ public class CharacterManager : MonoBehaviour
         {
             InitializeComponent();
         }
-
     }
 
     private bool InitializeMesh()
@@ -34,7 +36,7 @@ public class CharacterManager : MonoBehaviour
                 return false;
         }
 
-        currentInstance = Instantiate(_characterData.meshPrefab, transform);
+        currentInstance = Instantiate(_characterData.meshPrefab, transform).GetComponent<MeshInstance>();
         currentInstance.prefabID = _characterData.meshPrefab.GetInstanceID();
 
         Bounds meshBounds = currentInstance.GetComponentInChildren<SkinnedMeshRenderer>().bounds;
@@ -44,15 +46,16 @@ public class CharacterManager : MonoBehaviour
 
     private void InitializeComponent()
     {
-        if (_playerMovement)
-            _playerMovement.SetMoveSpeed(_characterData.moveSpeed);
-
+        _playerMovement?.SetMoveSpeed(_characterData.MoveSpeed);
         if (_health)
-            _health.SetMaxHealth(_characterData.maxHealth);
+        {
+            _health.SetMaxHealth(_characterData.MaxHealth);
+            _health.OnHealthChange.AddListener((ratio) => _characterUI.SetHealthBarValue(ratio));
+        }
 
-        _characterUI.SetName(_characterData.characterName);
-        _characterUI.SetNameHeight(_meshHeight + .2f);
-        _characterUI.SetDescription(_characterData.description);
+        _characterUI.SetName(_characterData.Name);
+        _characterUI.SetNameHeight(_meshHeight + .4f);
+        _characterUI.SetDescription(_characterData.Description);
     }
 
     private void DestoryMesh(GameObject toDestroy)

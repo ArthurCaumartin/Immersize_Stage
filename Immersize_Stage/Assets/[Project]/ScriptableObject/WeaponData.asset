@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: WeaponData 1
-  m_EditorClassIdentifier: Assembly-CSharp:Entity.Weapons:ScriptAbleWeaponData
-  weaponName: 
+  m_Script: {fileID: 11500000, guid: 720d15712b766ed4db8f1a8af5ad2d9b, type: 3}
+  m_Name: WeaponData
+  m_EditorClassIdentifier: 
+  _weaponName: 
   _levelRequirement: 0
   _weight: 0
   _damage: 0

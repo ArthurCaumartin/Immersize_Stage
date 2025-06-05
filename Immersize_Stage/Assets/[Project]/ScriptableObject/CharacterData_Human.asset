@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aecda63f164aed344a0e767a1aeeca3f, type: 3}
   m_Name: CharacterData_Human
   m_EditorClassIdentifier: 
-  characterName: Human
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis
+  _characterName: Human
+  _description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis
     nibh et urna sodales venenatis nec non est. Praesent tincidunt scelerisque eros
     at tristique. Donec nec libero laoreet, consequat nulla in, molestie ante. Maecenas
     hendrerit eu mauris at porttitor. Quisque vel erat ac leo blandit elementum vel
     sit amet nisl. Duis scelerisque sollicitudin volutpat.
-  maxHealth: 150
-  moveSpeed: 2
-  meshPrefab: {fileID: 3077398036350517820, guid: ae2148d34cf901b40aaeb5918308c631, type: 3}
+  _maxHealth: 100
+  _moveSpeed: 5
+  icon: {fileID: 0}
+  meshPrefab: {fileID: 7842443892545326289, guid: ae2148d34cf901b40aaeb5918308c631, type: 3}
