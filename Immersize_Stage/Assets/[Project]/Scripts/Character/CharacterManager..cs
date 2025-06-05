@@ -7,7 +7,7 @@ public class CharacterManager : MonoBehaviour
     [SerializeField] private CharacterHealth _health;
     [SerializeField] private CharacterUI _characterUI;
 
-    [SerializeField] private Character _entity;
+    [SerializeField] private Character _character;
 
     private float _meshHeight;
 
