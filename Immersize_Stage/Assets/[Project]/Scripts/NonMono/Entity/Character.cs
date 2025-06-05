@@ -1,14 +1,17 @@
 using System;
+using Entity;
 
 [Serializable]
 public class Character : LivingEntity
 {
+    public Character(string name) : base(name) { }
+
     public override void Kill()
     {
         throw new NotImplementedException();
     }
 
-    public override void TakeDamage(Entity damageSource, float damageQuantity)
+    public override void TakeDamage(EntityModel damageSource, float damageQuantity)
     {
         throw new NotImplementedException();
     }
