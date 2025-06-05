@@ -6,6 +6,9 @@ public class CharacterManager : MonoBehaviour
     [SerializeField] private PlayerMovement _playerMovement;
     [SerializeField] private CharacterHealth _health;
     [SerializeField] private CharacterUI _characterUI;
+
+    [SerializeField] private Character _entity;
+
     private float _meshHeight;
 
     public void Bake()
