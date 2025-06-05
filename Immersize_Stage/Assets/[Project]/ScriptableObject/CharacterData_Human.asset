@@ -19,6 +19,5 @@ MonoBehaviour:
     hendrerit eu mauris at porttitor. Quisque vel erat ac leo blandit elementum vel
     sit amet nisl. Duis scelerisque sollicitudin volutpat.
   maxHealth: 150
-  moveSpeed: 5
+  moveSpeed: 2
   meshPrefab: {fileID: 3077398036350517820, guid: ae2148d34cf901b40aaeb5918308c631, type: 3}
-  animator: {fileID: 9100000, guid: f11b090586c05ea43b35342084cf5aab, type: 2}
