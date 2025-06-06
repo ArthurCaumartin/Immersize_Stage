@@ -11,7 +11,7 @@ public class Shop : MonoBehaviour, IInteractible
     private List<ShopItemDisplay> _displayList = new List<ShopItemDisplay>();
 
 
-    [Header("En speed : ")]
+    [Header("En speed / a setup autre ailleur : ")]
     [SerializeField] private int _currency;
 
     private ShopUI _shopUI;
@@ -20,26 +20,47 @@ public class Shop : MonoBehaviour, IInteractible
     {
         _shopUI = GetComponent<ShopUI>();
 
-        _buttonRefresh.onClick.AddListener(RefreshDisplay);
+        _buttonRefresh.onClick.AddListener(() => RefreshDisplay(50));
         _buttonClose.onClick.AddListener(() => EnableShop(false));
 
         EnableShop(false);
+    }
+
+    public bool TryBuy(int price)
+    {
+        if (_currency >= price && _currency - price >= 0)
+        {
+            _currency -= price;
+
+            return true;
+        }
+        return false;
+    }
+
+    public void RemoveDisplay(ShopItemDisplay display)
+    {
+        if (_displayList.Contains(display))
+            _displayList.Remove(display);
+        Destroy(display.gameObject);
     }
 
     public void EnableShop(bool value)
     {
         if (_displayList.Count == 0)
         {
-            _shopUI.InitializeDislpay(_itemToSellList, _displayList);
+            _shopUI.InitializeDislpay(_itemToSellList, _displayList, this);
         }
 
         _shopUI.EnableUI(value);
     }
 
-    public void RefreshDisplay()
+    public void RefreshDisplay(int price)
     {
-        _shopUI.ClearDisplay(_displayList);
-        _shopUI.InitializeDislpay(_itemToSellList, _displayList);
+        if (TryBuy(price))
+        {
+            _shopUI.ClearDisplay(_displayList);
+            _shopUI.InitializeDislpay(_itemToSellList, _displayList, this);
+        }
     }
 
     public void Interact()

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ShopItemDisplay : MonoBehaviour
 {
+    [SerializeField] private Button _buttonBuy;
     [SerializeField] private TextMeshProUGUI _textName;
     [SerializeField] private TextMeshProUGUI _textPrice;
     [SerializeField] private TextMeshProUGUI _textDescription;
@@ -12,13 +13,14 @@ public class ShopItemDisplay : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _textStats;
     [Space]
     [SerializeField] private Image _imageIcon;
+    private ScriptableItemData _data;
 
-    public int Price;
+    public ScriptableItemData ItemData { get => _data; }
 
-    public ShopItemDisplay Initialize(ScriptableItemData data)
+    public ShopItemDisplay Initialize(ScriptableItemData data, Shop shop)
     {
-        Price = data.Price;
-        _textPrice.text = Price.ToString();
+        _data = data;
+        _textPrice.text = data.Price.ToString();
 
         if (data is ScriptAbleWeaponData)
         {
@@ -36,6 +38,11 @@ public class ShopItemDisplay : MonoBehaviour
             $"Range : {weaponData.Range}";
         }
 
+        _buttonBuy.onClick.AddListener(() =>
+        {
+            if (shop.TryBuy(data.Price))
+                shop.RemoveDisplay(this);
+        });
         return this;
     }
 }

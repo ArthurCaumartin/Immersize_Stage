@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements.Experimental;
 
 public class ShopUI : MonoBehaviour
 {
@@ -17,7 +16,7 @@ public class ShopUI : MonoBehaviour
         ResetScroll();
     }
 
-    public void InitializeDislpay(List<ScriptableItemData> itemList, List<ShopItemDisplay> displayList)
+    public void InitializeDislpay(List<ScriptableItemData> itemList, List<ShopItemDisplay> displayList, Shop shop)
     {
         if (itemList.Count == 0) return;
         if (displayList.Count > 0)
@@ -26,7 +25,7 @@ public class ShopUI : MonoBehaviour
         for (int i = 0; i < itemList.Count; i++)
         {
             ShopItemDisplay newDis = Instantiate(_prefabDisplay, _displayParent.transform);
-            displayList.Add(newDis.Initialize(itemList[i]));
+            displayList.Add(newDis.Initialize(itemList[i], shop));
         }
         RectTransform parentRect = (RectTransform)_displayParent.transform;
         parentRect.rect.Set(0, 0, 0, (_displayParent.spacing.y + _displayParent.cellSize.y) * itemList.Count);
