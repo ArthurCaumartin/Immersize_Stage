@@ -1,0 +1,1083 @@
+fileFormatVersion: 2
+guid: 4ec16cb87f7592641ac36beb1f6f6ec3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 898
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3127acaf0f3a842b6326f86a9aa501
+      internalID: 900558568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 898
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469d0415979186e40b51eb5a6a0c3d49
+      internalID: -583451325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_2
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 898
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f7b2f6bc28f9043854752be4446494
+      internalID: -976144636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_3
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 898
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144b9d4584ad6d04ba0776c3c2703c63
+      internalID: -452897330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_4
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 898
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a3093f4c2e9e64aa3d0386d5709566
+      internalID: -925859693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_5
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 898
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b761eae6cdfff44980bfc29c5f2f1e2
+      internalID: -519497077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_6
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 898
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff8ba53b5070104cbc1e9e59f7d0f3b
+      internalID: -1262252186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 724
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dfd7a61bc303b4a818cdb403843be7
+      internalID: -685380664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 724
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e946cb46871014e945a33df05bbe37
+      internalID: 259322077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_9
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 724
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf58a7d469c4a645988ff2a0ac43095
+      internalID: -465044925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_10
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 724
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd0197a76c114b40a9b1466a9d8b65b
+      internalID: 333487739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_11
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 724
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c6b3f3d7e3c824c8a2dc2697420c5a
+      internalID: -1265431845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_12
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 724
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00656fd73f45bcc43ad6d37711095389
+      internalID: -1700901131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_13
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 724
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1827079c15623484cace4d4236474414
+      internalID: -1995001245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 550
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddb73211bd0f2244ab68c8220ace551
+      internalID: -1351448318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 550
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282b5fbe4f50e24488958c98f8f0300f
+      internalID: 1515734025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_16
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 550
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b20723fd79dda40ac31e4daf72d201
+      internalID: -1072956243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_17
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 550
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e5cf2be897cdd4bb6c107f74cc82e5
+      internalID: -38761215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_18
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 550
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125b185a1913a754a9366339d5e8727b
+      internalID: -276020413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_19
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 550
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25487a3e00a82444bb23d237a98d60b6
+      internalID: -742577697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_20
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 550
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a54feb4bf62f3340a6aae2d6274c9b0
+      internalID: 56810394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 376
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803fff9c84fd43e49bddbd0ce124d322
+      internalID: -2064136997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_22
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 376
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332d282fe26091942ad774fcce94e089
+      internalID: 191839095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_23
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 376
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430cb8f7907c3b043a12bfc842690aa1
+      internalID: -1600823610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_24
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 376
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a1fec1cb31739469157ac501454fc4
+      internalID: 682145975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_25
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 376
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e83a476847fdc145ae01d784354ad02
+      internalID: 263457150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_26
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 376
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18bef817f5a2154bbe8d4abd16eecec
+      internalID: -1174366327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_27
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 376
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123507447b3eeac4b8455be0c8e6676d
+      internalID: -306234487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_28
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 202
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f311437869684843a7697c21764c3ed
+      internalID: -674498015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_29
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 202
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e2fb8c323b6924abb3f5e3a2fa7b51
+      internalID: -2111540102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_30
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 202
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e5abed69c555f4781897e3fb0f56fb
+      internalID: 424782880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_31
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 202
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208e6b7ad9b8ba544bc88bef6ce5a7af
+      internalID: -380324507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_32
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 202
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21528ceb151eabc4a981e2a56b297b20
+      internalID: 156541975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_33
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 202
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f223e658ce8546418de2ab8bd63339f
+      internalID: 639444200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_34
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 202
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f0fb6f80f89714f85d8b0a546e46e7
+      internalID: 1225173448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 28
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fa06554b8c23b47900de4f8ad64413
+      internalID: 981978687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_36
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 28
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb3c3cb40bd10546a6a730836941896
+      internalID: -335429965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_37
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 28
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee0f088728d4b6458fd1e3c519422e6
+      internalID: 711680732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_38
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 28
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca1e57e02a4f9545a6e210c9590b597
+      internalID: 289947022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_39
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 28
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb2b14f60ed1ed41a1cc32224019c91
+      internalID: -2079725549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_40
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 28
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d63e620c5f07d44690f806a7c4b5a86
+      internalID: -1208511902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_icon_placeHolder_41
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 28
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f24a8d67de83743adfdcbef4c9dfc7
+      internalID: -42783998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5dc510cb698b93841b94f6361f3c2811
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      weapon_icon_placeHolder_0: 900558568
+      weapon_icon_placeHolder_1: -583451325
+      weapon_icon_placeHolder_10: 333487739
+      weapon_icon_placeHolder_11: -1265431845
+      weapon_icon_placeHolder_12: -1700901131
+      weapon_icon_placeHolder_13: -1995001245
+      weapon_icon_placeHolder_14: -1351448318
+      weapon_icon_placeHolder_15: 1515734025
+      weapon_icon_placeHolder_16: -1072956243
+      weapon_icon_placeHolder_17: -38761215
+      weapon_icon_placeHolder_18: -276020413
+      weapon_icon_placeHolder_19: -742577697
+      weapon_icon_placeHolder_2: -976144636
+      weapon_icon_placeHolder_20: 56810394
+      weapon_icon_placeHolder_21: -2064136997
+      weapon_icon_placeHolder_22: 191839095
+      weapon_icon_placeHolder_23: -1600823610
+      weapon_icon_placeHolder_24: 682145975
+      weapon_icon_placeHolder_25: 263457150
+      weapon_icon_placeHolder_26: -1174366327
+      weapon_icon_placeHolder_27: -306234487
+      weapon_icon_placeHolder_28: -674498015
+      weapon_icon_placeHolder_29: -2111540102
+      weapon_icon_placeHolder_3: -452897330
+      weapon_icon_placeHolder_30: 424782880
+      weapon_icon_placeHolder_31: -380324507
+      weapon_icon_placeHolder_32: 156541975
+      weapon_icon_placeHolder_33: 639444200
+      weapon_icon_placeHolder_34: 1225173448
+      weapon_icon_placeHolder_35: 981978687
+      weapon_icon_placeHolder_36: -335429965
+      weapon_icon_placeHolder_37: 711680732
+      weapon_icon_placeHolder_38: 289947022
+      weapon_icon_placeHolder_39: -2079725549
+      weapon_icon_placeHolder_4: -925859693
+      weapon_icon_placeHolder_40: -1208511902
+      weapon_icon_placeHolder_41: -42783998
+      weapon_icon_placeHolder_5: -519497077
+      weapon_icon_placeHolder_6: -1262252186
+      weapon_icon_placeHolder_7: -685380664
+      weapon_icon_placeHolder_8: 259322077
+      weapon_icon_placeHolder_9: -465044925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

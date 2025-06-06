@@ -17,7 +17,7 @@ namespace Entity.Weapons {
     }
 
     [CreateAssetMenu(fileName = "WeaponData", menuName = "Immersize/WeaponData", order = 1)]
-    public class ScriptAbleWeaponData : ScriptableObject {
+    public class ScriptAbleWeaponData : ScriptableItemData {
         #region Fields
         [Header("Weapon Properties")]
             [SerializeField] private string _weaponName = "Unnamed Weapon";

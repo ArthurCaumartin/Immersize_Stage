@@ -9,17 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 720d15712b766ed4db8f1a8af5ad2d9b, type: 3}
+  m_Script: {fileID: 0}
   m_Name: WeaponData
-  m_EditorClassIdentifier: 
-  _weaponName: 
-  _levelRequirement: 0
-  _weight: 0
-  _damage: 0
+  m_EditorClassIdentifier: Assembly-CSharp:Entity.Weapons:ScriptAbleWeaponData
+  _price: 0
+  _weaponName: Piou piou
+  _levelRequirement: 1
+  _weaponType: 2
+  _weight: 1
+  _damage: 5
   _durability: 0
-  _range: 0
-  _fireRate: 0
+  _range: 15
+  _fireRate: 3
   _description: 
-  _weaponType: 0
-  icon: {fileID: 0}
+  icon: {fileID: 900558568, guid: 4ec16cb87f7592641ac36beb1f6f6ec3, type: 3}
   modelPrefab: {fileID: 0}
