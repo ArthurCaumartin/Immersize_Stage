@@ -17,7 +17,7 @@ public class ShopItemDisplay : MonoBehaviour
 
     public ShopItemDisplay Initialize(ScriptableItemData data)
     {
-        Price = Random.Range(10, 50);
+        Price = data.Price;
         _textPrice.text = Price.ToString();
 
         if (data is ScriptAbleWeaponData)
