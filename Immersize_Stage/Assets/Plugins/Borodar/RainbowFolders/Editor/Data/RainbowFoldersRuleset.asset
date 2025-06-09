@@ -197,7 +197,7 @@ MonoBehaviour:
     Key: Scripts
     Ordinal: 15
     Priority: 0
-    IconType: 140
+    IconType: 10
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
     IsIconRecursive: 0
@@ -356,8 +356,8 @@ MonoBehaviour:
     IconType: 60
     SmallIcon: {fileID: 0}
     LargeIcon: {fileID: 0}
-    IsIconRecursive: 0
+    IsIconRecursive: 1
     BackgroundType: 60
     BackgroundTexture: {fileID: 0}
-    IsBackgroundRecursive: 0
+    IsBackgroundRecursive: 1
     IsHidden: 0
