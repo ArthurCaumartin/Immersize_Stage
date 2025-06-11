@@ -7,12 +7,12 @@ public class CharacterHealth : MonoBehaviour, IDamagable
     [SerializeField] private float _maxHealth;
     private float _currentHealth;
 
+    // Call on TakeDamage, return the health ratio
     [HideInInspector] public UnityEvent<float> OnHealthChange;
 
     public void TakeDamage(GameObject damageSource, float damage)
     {
         _currentHealth -= damage;
-
         if (_currentHealth <= 0)
         {
             Destroy(gameObject);

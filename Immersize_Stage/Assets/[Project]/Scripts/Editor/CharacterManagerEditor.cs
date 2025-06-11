@@ -3,14 +3,14 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-[CustomEditor(typeof(CharacterManager)), CanEditMultipleObjects]
+[CustomEditor(typeof(CharacterBaker)), CanEditMultipleObjects]
 public class CharacterManagerEditor : Editor
 {
     public override void OnInspectorGUI()
     {
         if (GUILayout.Button("Bake Character Data"))
         {
-            CharacterManager characterManager = target as CharacterManager;
+            CharacterBaker characterManager = target as CharacterBaker;
             characterManager.Bake();
 
             EditorUtility.SetDirty(characterManager);

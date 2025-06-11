@@ -122,10 +122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bd605e84cf12ea4cb6ac940ea49f8d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterData: {fileID: 11400000, guid: e695062630422c341b20bdc94b91ac12, type: 2}
-  _playerMovement: {fileID: 0}
-  _health: {fileID: 6385244732347482500}
-  _characterUI: {fileID: 985553140342670646}
+  characterData: {fileID: 0}
+  health: {fileID: 6385244732347482500}
+  characterUI: {fileID: 985553140342670646}
 --- !u!114 &6385244732347482500
 MonoBehaviour:
   m_ObjectHideFlags: 0
