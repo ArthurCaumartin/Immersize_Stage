@@ -1,26 +1,23 @@
 using System;
-
 using UnityEngine;
 using Entity;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody))]
 [Serializable]
-public abstract class LivingEntity : EntityModel {
-
-
+public abstract class LivingEntity : EntityModel
+{
     [Space]
-    [SerializeField] protected int _maxHealth = 100; // Remplacer les components de health par autre chose ? (je sais pas quoi  exactement)
+    [SerializeField] protected int _maxHealth = 100;
     protected float _currentHealth = 50;
     [SerializeField] protected float _movementSpeed = 5;
 
+    public int MaxHealth { get => _maxHealth; }
+    public float CurrentHealth { get => _currentHealth; }
+
     protected LivingEntity(string name) : base(name) { }
 
-    public abstract void TakeDamage(EntityModel damageSource, float damageQuantity);
     public abstract void Kill();
-
-    internal void TakeDamage(Sword sword, float damageQuantity)
-    {
-        throw new NotImplementedException();
-    }
+    public abstract void TakeDamage(Weapon damageSource, float damageQuantity);
 }
 
