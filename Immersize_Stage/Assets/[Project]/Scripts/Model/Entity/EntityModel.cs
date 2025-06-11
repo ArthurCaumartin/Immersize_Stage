@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Entity {
     [Serializable]
-    public abstract class EntityModel {
+    public abstract class EntityModel : MonoBehaviour {
         [SerializeField] protected internal string name;
         [SerializeField] protected internal string? description;
 
