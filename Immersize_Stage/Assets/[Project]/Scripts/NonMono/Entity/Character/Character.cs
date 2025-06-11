@@ -11,7 +11,7 @@ public class Character : LivingEntity
         throw new NotImplementedException();
     }
 
-    public override void TakeDamage(EntityModel damageSource, float damageQuantity)
+    public override void TakeDamage(Weapon damageSource, float damageQuantity)
     {
         throw new NotImplementedException();
     }
