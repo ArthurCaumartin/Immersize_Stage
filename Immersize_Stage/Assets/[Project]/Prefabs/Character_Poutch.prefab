@@ -10,8 +10,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5864138547575011947, guid: 1cb1be25b7191924f80751e412e17697, type: 3}
       propertyPath: m_Name
-      value: Character
+      value: Character_Poutch
       objectReference: {fileID: 0}
+    - target: {fileID: 7758628659756247014, guid: 1cb1be25b7191924f80751e412e17697, type: 3}
+      propertyPath: characterData
+      value: 
+      objectReference: {fileID: 11400000, guid: f38f2292c1ffafd46b7408f8114a5eb3, type: 2}
     - target: {fileID: 8487631376467436342, guid: 1cb1be25b7191924f80751e412e17697, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

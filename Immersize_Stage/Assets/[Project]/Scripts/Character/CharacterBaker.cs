@@ -4,7 +4,6 @@ using Entity.Character;
 public class CharacterBaker : MonoBehaviour
 {
     [SerializeField] protected CharacterData characterData;
-    [SerializeField] protected CharacterHealth health;
     [SerializeField] protected CharacterUI characterUI;
     protected float meshHeight;
 
@@ -45,12 +44,6 @@ public class CharacterBaker : MonoBehaviour
 
     protected virtual void InitializeComponent()
     {
-        if (health)
-        {
-            health.SetMaxHealth(characterData.MaxHealth);
-            health.OnHealthChange.AddListener((ratio) => characterUI.SetHealthBarValue(ratio));
-        }
-
         characterUI.SetName(characterData.Name);
         characterUI.SetNameHeight(meshHeight + .4f);
         characterUI.SetDescription(characterData.Description);
