@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterName: Poutch
   _description: Test ur stuff here !
-  _maxHealth: 500
+  _maxHealth: 100
   _moveSpeed: 3
   icon: {fileID: 0}
   meshPrefab: {fileID: 7842443892545326289, guid: 6d2344ef90c1e7140ba0c9a23f2ab904, type: 3}
+  animator: {fileID: 9100000, guid: 3ca470d9abd59a0488c2874c79a319e4, type: 2}

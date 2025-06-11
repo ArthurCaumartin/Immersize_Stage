@@ -1,10 +1,13 @@
 using UnityEngine;
 using Entity.Character;
+using Unity.VisualScripting;
 
 public class CharacterBaker : MonoBehaviour
 {
     [SerializeField] protected CharacterData characterData;
+    [SerializeField] protected Character character;
     [SerializeField] protected CharacterUI characterUI;
+    [SerializeField] protected CharacterAnimation characterAnimation;
     protected float meshHeight;
 
     private void Start()
@@ -21,6 +24,8 @@ public class CharacterBaker : MonoBehaviour
         {
             InitializeComponent();
         }
+
+        character.BakeCharacter(characterData);
     }
 
     protected virtual bool InitializeMesh()
@@ -36,8 +41,11 @@ public class CharacterBaker : MonoBehaviour
 
         currentInstance = Instantiate(characterData.meshPrefab, transform).GetComponent<MeshInstance>();
         currentInstance.prefabID = characterData.meshPrefab.GetInstanceID();
+        characterAnimation.Animator = currentInstance.GetComponentInChildren<Animator>();
 
-        Bounds meshBounds = currentInstance.GetComponentInChildren<Renderer>().bounds;
+
+        Renderer renderer = currentInstance.Renderer;
+        Bounds meshBounds = renderer.bounds;
         meshHeight = (meshBounds.extents.y + Mathf.Abs(meshBounds.center.y)) * currentInstance.transform.localScale.y;
         return true;
     }
@@ -45,7 +53,7 @@ public class CharacterBaker : MonoBehaviour
     protected virtual void InitializeComponent()
     {
         characterUI.SetName(characterData.Name);
-        characterUI.SetNameHeight(meshHeight + .4f);
+        characterUI.SetNameHeight(meshHeight + 1f);
         characterUI.SetDescription(characterData.Description);
     }
 

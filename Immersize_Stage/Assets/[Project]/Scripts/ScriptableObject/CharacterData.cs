@@ -10,12 +10,12 @@ namespace Entity.Character
         [Header("Character Properties")]
         [SerializeField] protected string _characterName;
         [SerializeField] protected string _description;
-        [SerializeField] protected float _maxHealth;
+        [SerializeField] protected int _maxHealth;
         [SerializeField] protected float _moveSpeed;
 
         public string Name { get => _characterName; }
         public string Description { get => _description; }
-        public float MaxHealth { get => _maxHealth; }
+        public int MaxHealth { get => _maxHealth; }
         public float MoveSpeed { get => _moveSpeed; }
         
 
@@ -26,7 +26,7 @@ namespace Entity.Character
         private readonly string _pathIcon = "DefaultCharacterIcon";
         private readonly string _pathMeshInstance = "DefaultCharacterModel";
 
-        public CharacterData(string name, float maxHealth, float moveSpeed
+        public CharacterData(string name, int maxHealth, float moveSpeed
         , string description = null, Sprite icon = null, GameObject meshPrefab = null)
         {
             _characterName = name;

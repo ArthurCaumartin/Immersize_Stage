@@ -8,16 +8,20 @@ using UnityEngine.Events;
 public abstract class LivingEntity : EntityModel
 {
     [Space]
-    [SerializeField] protected int _maxHealth = 100;
-    protected float _currentHealth = 50;
-    [SerializeField] protected float _movementSpeed = 5;
+    [SerializeField] protected int maxHealth = 100;
+    protected float currentHealth = 50;
+    [SerializeField] protected float movementSpeed = 5;
+    [SerializeField] protected float attackSpeed = 5;
 
-    public int MaxHealth { get => _maxHealth; }
-    public float CurrentHealth { get => _currentHealth; }
+    public float AttackSpeed { get => attackSpeed; }
+    public int MaxHealth { get => maxHealth; }
+    public float CurrentHealth { get => currentHealth; }
+    public float HealthRatio { get => currentHealth / maxHealth; }
 
     protected LivingEntity(string name) : base(name) { }
 
+    public abstract void Attack();
+    public abstract void TakeDamage(float damageQuantity);
     public abstract void Kill();
-    public abstract void TakeDamage(Weapon damageSource, float damageQuantity);
 }
 
